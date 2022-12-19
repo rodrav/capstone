@@ -1,2 +1,2 @@
 # capstone
-coursera Capstone
+Coursera Capstone
