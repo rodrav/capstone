@@ -5,7 +5,7 @@ date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Capstone - eathquake plots}
-  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEngine{knitr::knitr}
   %\VignetteEncoding{UTF-8}
 ---
 
@@ -24,16 +24,16 @@ Plot the historical location of earthquakes contained in the NOAA earthquakes da
 We load packages and clean data, using "eq_clean_data". In addition, we select a set from the database to use as an example:
 
 ```{r loading, message=F, warning=F}
-# library(Capstone)
-# library(dplyr)
-# library(readr)
-# library(lubridate)
-# library(leaflet)
-# file_name <- system.file("extdata", "signif.txt", package = "capstone")
-# clean_data <- file_name %>%
-#               readr::read_tsv() %>%
-#               eq_clean_data() %>% 
-#               filter(COUNTRY == "CHILE", LOCATION_NAME == "Santiago") 
+library(capstone)
+library(dplyr)
+library(readr)
+library(lubridate)
+library(leaflet)
+file_name <- system.file("extdata", "signif.txt", package = "capstone")
+clean_data <- file_name %>%
+              readr::read_tsv() %>%
+              eq_clean_data() %>%
+              filter(COUNTRY == "CHILE", LOCATION_NAME == "Santiago")
               
 ```
 
