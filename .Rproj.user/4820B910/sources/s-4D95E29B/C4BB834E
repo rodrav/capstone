@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1671206765827.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "C4BB834E",
+    "lastKnownWriteTime" : 1671454910,
+    "last_content_update" : 1671454910555,
+    "path" : "~/capstone/tests/test.R",
+    "project_path" : "tests/test.R",
+    "properties" : {
+        "cursorPosition" : "11,31",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
